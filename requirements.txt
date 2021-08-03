@@ -1,3 +1,5 @@
 streamlit
-fastai>=2
+fastai
 pillow<7
+pandas
+numpy
