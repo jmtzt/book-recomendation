@@ -5,7 +5,7 @@ from PIL import Image
 path = Path()
 learn_inf = load_learner(path/'production_model.pkl', cpu=True)
 book_factors = learn_inf.model.i_weight.weight
-# TODO: add logo
+# TODO: add logo for app
 #image = Image.open('logo.png')
 books = pd.read_csv('books.csv')
 
