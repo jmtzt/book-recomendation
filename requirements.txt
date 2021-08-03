@@ -1,4 +1,3 @@
 streamlit
 fastai>=2
-PIL
 pillow<7
